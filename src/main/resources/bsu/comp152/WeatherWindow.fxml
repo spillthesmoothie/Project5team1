@@ -113,9 +113,9 @@
             <HBox prefHeight="85.0" prefWidth="324.0">
                <children>
                   <ButtonBar prefHeight="76.0" prefWidth="317.0">
-                    <buttons>
-                      <Button fx:id="Exit" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="307.0" text="Exit" />
-                    </buttons>
+                     <buttons>
+                        <Button fx:id="Exit" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="307.0" text="Exit" />
+                     </buttons>
                   </ButtonBar>
                </children>
             </HBox>

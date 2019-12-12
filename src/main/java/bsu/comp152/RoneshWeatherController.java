@@ -101,11 +101,11 @@ public class RoneshWeatherController {
         }
 
         return param;
-            }
+    }
     @FXML
     public void exit(ActionEvent event){
         System.exit(0);//will exit the program
-}
+    }
     @FXML
     public void search(ActionEvent event){
         loadData1(getCity());
@@ -115,5 +115,30 @@ public class RoneshWeatherController {
 
 
 
-}}
+    }}
+
+//@Override
+//public void initialize(URL location, ResourceBundle resources) {
+//    //loadData();
+//    datePicker.setConverter(new StringConverter<LocalDate>() {
+//        @Override
+//        public String toString(LocalDate localDate) {
+//            if (localDate !=null){
+//                return formatter.format(localDate);
+//            }
+//            return null;
+//        }
+//
+//        @Override
+//        public LocalDate fromString(String s) {
+//            if (s !=null && !s.trim().isEmpty()){
+//                return LocalDate.parse(s,formatter);
+//            }
+//            return null;
+//        }
+
+
+
+
+
 
