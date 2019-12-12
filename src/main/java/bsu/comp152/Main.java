@@ -104,7 +104,7 @@ public class Main extends Application {
     @FXML
     public  void openTrey(ActionEvent event){
         Parent root = null;
-        var loc = getClass().getResource("Kevin.fxml");
+        var loc = getClass().getResource("Trey.fxml");
         try {
             root = FXMLLoader.load(loc);
         }catch (IOException e){
@@ -113,7 +113,7 @@ public class Main extends Application {
         Scene windowContents = new Scene(root, 900,400);
         Stage TreyWindow = new Stage();
         TreyWindow.setScene(windowContents);
-        TreyWindow.setTitle("Anthony");
+        TreyWindow.setTitle("Jokes");
         TreyWindow.show();
     }
 }
