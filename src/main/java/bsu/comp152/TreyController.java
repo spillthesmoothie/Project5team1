@@ -11,6 +11,7 @@ import java.io.IOException;
 
 public class TreyController {
 
+    // three main joke buttons to choose from
     @FXML
     private Button Programming;
     @FXML
@@ -18,6 +19,7 @@ public class TreyController {
     @FXML
     private Button Any;
 
+    // This portion is just pressing a joke you want and it will take you to that screen
     @FXML
     private void dadJoke(ActionEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("jokeScreen.fxml"));
