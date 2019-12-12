@@ -15,6 +15,7 @@
 // Connect your FXML file with the Controller. Have a unique name for your Controller. What I have done here I made RoneshWeatherController.
 //Link your Controller in the Fx:Controller like what I have done below.
 //<AnchorPane prefHeight="400.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bsu.comp152.RoneshWeatherController">
+// And make important changes to your projects.
 package bsu.comp152;
 
 import javafx.application.Application;
